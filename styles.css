@@ -34,6 +34,9 @@ body {
     text-align: center;
     margin-bottom: 30px;
 }
+table {
+    vertical-align: middle
+}
 
 table input {
     border: none;
@@ -46,8 +49,4 @@ table td:hover {
 
 td {
     padding: none;
-    margin: auto;
-    width: 20px;
-    height: 60px;
-    text-overflow: clip;
 }
