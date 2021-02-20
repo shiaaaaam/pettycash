@@ -196,9 +196,31 @@
 
                 <div class="modal-body">
                     <div class="mb-3">
-                        <label for="item-entry" class="form-label">Expance for</label>
-                        <input type="text" class="form-control" id="item-entry" placeholder="Enter your expance" />
-                        <input type="number" class="form-control" placeholder="Enter the amount" />
+                        <label for="date" class="form-label">Date</label>
+                        <input type="date" class="form-control" id="date" />
+                        <br>
+                        <label for="paidto" class="form-label">Paid to</label>
+                        <input type="text" class="form-control" id="paidto" />
+                        <br>
+                        <p>items</p>
+
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col col-sm-7">Details</th>
+                                    <th scope="col col-sm">Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td class="col-sm-7"><input type="text"></td>
+                                    <td class="col-sm"><input type="number"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
                     </div>
                 </div>
 

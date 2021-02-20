@@ -34,3 +34,12 @@ body {
     text-align: center;
     margin-bottom: 30px;
 }
+
+table input {
+    border: none;
+    outline: none;
+}
+
+table input:hover {
+    border: 1px solid lightgray;
+}
