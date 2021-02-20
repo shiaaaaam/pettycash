@@ -44,3 +44,10 @@ table td:hover {
     box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.17);
 }
 
+td {
+    padding: none;
+    margin: auto;
+    width: 20px;
+    height: 60px;
+    text-overflow: clip;
+}
